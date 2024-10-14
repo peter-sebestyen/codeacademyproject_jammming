@@ -2,7 +2,7 @@ import React from "react";
 
 function SearchBar (){
     return (
-        <div>
+        <div className="SearchBar">
             <input type='text' placeholder='Enter a song title'/>
             <input type='submit' />
         </div>

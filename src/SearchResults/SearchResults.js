@@ -3,7 +3,7 @@ import Track from "../Track/Track";
 
 function SearchResults() {
     return (
-        <div>
+        <div className="SearchResults">
             <h2>Results</h2>
             <ul>
                 <Track />

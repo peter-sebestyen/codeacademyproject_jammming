@@ -1,11 +1,13 @@
 import React from "react";
-import Tracklist from "../Tracklist/Tracklist";
+import Track from "../Track/Track";
 
 function Playlist() {
     return (
-        <div>
+        <div className="Playlist">
             <input type='text' placeholder='Enter Playlist name'/>
-            <Tracklist />
+            <ul>
+                <Track />
+            </ul>
             <input type='submit'/>
         </div>
     )

@@ -1,5 +1,32 @@
 .App {
     display: grid;
+    width: 100%;
+    grid-template-areas: 
+        'title title'
+        'searchBar searchBar'
+        'searchResults playlist';
+    grid-template-columns: 5fr 4fr;
     grid-template-rows: 1fr 1fr 4fr;
-    grid-template-columns: 3fr 2fr;
+}
+
+.title {
+    align-content: center;
+    text-align: center;
+    grid-area: title;
+}
+
+.SearchBar {
+    grid-area: searchBar;
+    margin: auto;
+    align-content: center;
+}
+
+.SearchResults {
+    grid-area: searchResults;
+    margin: auto;
+}
+
+.Playlist {
+    grid-area: playlist;
+    margin: auto;
 }
